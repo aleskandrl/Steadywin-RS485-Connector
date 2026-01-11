@@ -1,0 +1,23 @@
+# Build directories
+build/
+bin/
+obj/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Specific to this project
+# Do NOT ignore Release/ folder as it contains the required exe files
+!Release/
+!Release/*.exe
